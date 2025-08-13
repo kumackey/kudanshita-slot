@@ -1,0 +1,9 @@
+name = "kudanshita-slot"
+compatibility_date = "2025-08-13"
+compatibility_flags = ["nodejs_compat"]
+
+[build]
+command = "npm run build"
+
+[site]
+bucket = "./dist"
